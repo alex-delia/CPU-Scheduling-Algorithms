@@ -1,10 +1,10 @@
 CC = gcc
 H = io.h types.h scheduling.h
 C = main.c io.c scheduling.c
-EXEC = a4
+EXEC = scheduling
 
 build: ${C} ${H}
-	${CC} -g ${C} -o ${EXEC}
+	${CC} -g ${C} -o ${EXEC} -std:c99
 
 test:
 	@echo "Running a4 on cpu_scheduling_input_file.txt"
