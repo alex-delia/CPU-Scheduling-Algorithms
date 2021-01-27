@@ -6,7 +6,7 @@ How to Run:
 
 - cd to project directory
 - make
-- ./scheduling cpu_scheduling_input_file.txt
+- ./scheduling cpu_scheduling_input_file.txt  
 **OR**
 - make test
 
