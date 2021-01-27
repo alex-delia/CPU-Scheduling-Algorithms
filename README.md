@@ -7,5 +7,7 @@ How to Run:
 - cd to project directory
 - make
 - ./scheduling cpu_scheduling_input_file.txt
+**OR**
+- make test
 
 This will generate an external output file.
